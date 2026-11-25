@@ -1,53 +1,39 @@
 - [系列首页](/README.md)
-
 - [本册首页](/books/pro/README.md)
 
-- **第一篇　单卡的物理上限**
-  - [第 1 章　GPU 的执行模型与资源账](/books/pro/chapters/ch01.md)
-  - [第 2 章　显存层级与真实带宽](/books/pro/chapters/ch02.md)
-  - [第 3 章　Tensor Core、数据搬运与流水线](/books/pro/chapters/ch03.md)
-  - [第 4 章　Roofline、算术强度与 MFU 的算法](/books/pro/chapters/ch04.md)
-  - [第 5 章　低精度训练的数值细节](/books/pro/chapters/ch05.md)
+- [前言](/books/pro/front/preface.md)
 
-- **第二篇　网络**
-  - [第 6 章　集群网络、拓扑与带宽预算](/books/pro/chapters/ch06.md)
-  - [第 7 章　集合通信与 NCCL](/books/pro/chapters/ch07.md)
-  - [第 8 章　拥塞、尾延迟与多租户干扰](/books/pro/chapters/ch08.md)
-
-- **第三篇　并行**
-  - [第 9 章　数据并行的代价](/books/pro/chapters/ch09.md)
-  - [第 10 章　ZeRO 与 FSDP 的分片账](/books/pro/chapters/ch10.md)
-  - [第 11 章　张量并行的切分与通信](/books/pro/chapters/ch11.md)
-  - [第 12 章　流水并行的调度与气泡](/books/pro/chapters/ch12.md)
-  - [第 13 章　序列并行与上下文并行](/books/pro/chapters/ch13.md)
-  - [第 14 章　专家并行与 MoE 训练](/books/pro/chapters/ch14.md)
-  - [第 15 章　组合并行与自动切分](/books/pro/chapters/ch15.md)
-
-- **第四篇　显存与算子**
-  - [第 16 章　激活内存与重计算](/books/pro/chapters/ch16.md)
-  - [第 17 章　算子融合与内核选择](/books/pro/chapters/ch17.md)
-  - [第 18 章　通信与计算的重叠](/books/pro/chapters/ch18.md)
-
-- **第五篇　数据、存储与检查点**
-  - [第 19 章　数据管线与吞吐](/books/pro/chapters/ch19.md)
-  - [第 20 章　检查点、恢复与 checkpoint 风暴](/books/pro/chapters/ch20.md)
-  - [第 21 章　存储系统与带宽预算](/books/pro/chapters/ch21.md)
-
-- **第六篇　稳定性与可靠性**
-  - [第 22 章　硬件故障谱与静默数据损坏](/books/pro/chapters/ch22.md)
-  - [第 23 章　训练不稳定的诊断](/books/pro/chapters/ch23.md)
-  - [第 24 章　容错、弹性与调度](/books/pro/chapters/ch24.md)
-
-- **第七篇　观测与调优**
-  - [第 25 章　监控与可观测性](/books/pro/chapters/ch25.md)
-  - [第 26 章　Profiling 与性能验收](/books/pro/chapters/ch26.md)
-
-- **第八篇　复盘**
-  - [第 27 章　真实集群的复盘](/books/pro/chapters/ch27.md)
-  - [第 28 章　从零启动一次千卡训练](/books/pro/chapters/ch28.md)
+- [第 1 章　GPU 的执行模型与资源账](/books/pro/chapters/ch01.md)
+- [第 2 章　显存层级与真实带宽](/books/pro/chapters/ch02.md)
+- [第 3 章　Tensor Core、数据搬运与流水线](/books/pro/chapters/ch03.md)
+- [第 4 章　Roofline、算术强度与 MFU 的算法](/books/pro/chapters/ch04.md)
+- [第 5 章　低精度训练的数值细节](/books/pro/chapters/ch05.md)
+- [第 6 章　集群网络、拓扑与带宽预算](/books/pro/chapters/ch06.md)
+- [第 7 章　集合通信与 NCCL](/books/pro/chapters/ch07.md)
+- [第 8 章　拥塞、尾延迟与多租户干扰](/books/pro/chapters/ch08.md)
+- [第 9 章　数据并行的代价](/books/pro/chapters/ch09.md)
+- [第 10 章　ZeRO 与 FSDP 的分片账](/books/pro/chapters/ch10.md)
+- [第 11 章　张量并行的切分与通信](/books/pro/chapters/ch11.md)
+- [第 12 章　流水并行的调度与气泡](/books/pro/chapters/ch12.md)
+- [第 13 章　序列并行与上下文并行](/books/pro/chapters/ch13.md)
+- [第 14 章　专家并行与 MoE 训练](/books/pro/chapters/ch14.md)
+- [第 15 章　组合并行与自动切分](/books/pro/chapters/ch15.md)
+- [第 16 章　激活内存与重计算](/books/pro/chapters/ch16.md)
+- [第 17 章　算子融合与内核选择](/books/pro/chapters/ch17.md)
+- [第 18 章　通信与计算的重叠](/books/pro/chapters/ch18.md)
+- [第 19 章　数据管线与吞吐](/books/pro/chapters/ch19.md)
+- [第 20 章　检查点、恢复与 checkpoint 风暴](/books/pro/chapters/ch20.md)
+- [第 21 章　存储系统与带宽预算](/books/pro/chapters/ch21.md)
+- [第 22 章　硬件故障谱与静默数据损坏](/books/pro/chapters/ch22.md)
+- [第 23 章　训练不稳定的诊断](/books/pro/chapters/ch23.md)
+- [第 24 章　容错、弹性与调度](/books/pro/chapters/ch24.md)
+- [第 25 章　监控与可观测性](/books/pro/chapters/ch25.md)
+- [第 26 章　Profiling 与性能验收](/books/pro/chapters/ch26.md)
+- [第 27 章　真实集群的复盘](/books/pro/chapters/ch27.md)
+- [第 28 章　从零启动一次千卡训练](/books/pro/chapters/ch28.md)
 
 - **附录**
   - [附录 A　术语与缩写](/books/pro/appendix/appA.md)
   - [附录 B　常用公式与估算表](/books/pro/appendix/appB.md)
 
-- [后记](/books/pro/front/afterword.md)
+- <a href="/output/gpu-cluster-pro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

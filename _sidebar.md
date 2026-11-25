@@ -1,9 +1,9 @@
-- [系列首页](README.md)
+- [系列首页](/README.md)
 
-- **入门篇 · 从一张卡到一万张卡**
-  - [本册首页与目录](books/intro/README.md)
-  - [从第 1 章开始读](books/intro/chapters/ch01.md)
+- **01　入门篇**
+  - [本册首页](/books/intro/README.md)
+  - <a href="/output/gpu-cluster-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
 
-- **专业篇 · 算力、通信与稳定性**
-  - [本册首页与目录](books/pro/README.md)
-  - [从第 1 章开始读](books/pro/chapters/ch01.md)
+- **02　专业篇**
+  - [本册首页](/books/pro/README.md)
+  - <a href="/output/gpu-cluster-pro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
