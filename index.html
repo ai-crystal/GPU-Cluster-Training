@@ -100,7 +100,7 @@
             document.querySelectorAll('.markdown-section a').forEach(function (a) {
               const h = a.getAttribute('href') || '';
               if (h.indexOf('../../output/') === 0) {
-                a.setAttribute('href', h.replace(/^(\.\.\/)+/, '/'));
+                a.setAttribute('href', h.replace(/^(\.\.\/)+/, ''));
               }
             });
           });
