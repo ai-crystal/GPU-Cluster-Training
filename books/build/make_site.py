@@ -134,6 +134,8 @@ def root_readme(books: list[dict]) -> str:
 
 一套讲大规模训练的读本，分两册。入门篇建立完整地图，专业篇把每一步的字节数、微秒数和故障模式算清楚。
 
+在线阅读：<https://ai-crystal.github.io/GPU-Cluster-Training/>
+
 | 册 | 讲什么 | 篇幅 | 在线阅读 | PDF |
 |---|---|---|---|---|
 {chr(10).join(rows)}

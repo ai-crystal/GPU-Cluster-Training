@@ -2,6 +2,8 @@
 
 一套讲大规模训练的读本，分两册。入门篇建立完整地图，专业篇把每一步的字节数、微秒数和故障模式算清楚。
 
+在线阅读：<https://ai-crystal.github.io/GPU-Cluster-Training/>
+
 | 册 | 讲什么 | 篇幅 | 在线阅读 | PDF |
 |---|---|---|---|---|
 | **入门篇**《从一张卡到一万张卡》 | 动机、结构、并行、故障，不推公式 | 98 页 | [开始阅读](books/intro/chapters/ch01.md) ｜ [目录](books/intro/README.md) | [PDF 9.1 MB](output/gpu-cluster-intro.pdf ':ignore') |
