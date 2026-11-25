@@ -1,0 +1,17 @@
+{
+  "title": "从一张卡到一万张卡",
+  "edition": "入门篇",
+  "subtitle": "大规模 GPU 集群训练是怎么跑起来的",
+  "series": "大规模 GPU 集群训练技术",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "version": "2026 年 11 月",
+  "pdf": "gpu-cluster-intro.pdf",
+  "toc_sections": true,
+  "cover": "cover.jpg",
+  "backcover": "backcover.jpg",
+  "blurb": [
+    "一个千亿参数的模型，权重、梯度、优化器状态加起来有几千 GB，而一张显卡只有 80 GB。于是训练被拆到上千张卡上，卡与卡之间靠网络连成一台机器。",
+    "这本书讲的就是这台机器怎么运转：算力从哪里来，显存被谁吃掉，模型怎么切分，梯度怎么汇总，集群又会以哪些方式坏掉。全书不推公式，目标是让你看懂一次大规模训练里每个数字的来历。"
+  ]
+}

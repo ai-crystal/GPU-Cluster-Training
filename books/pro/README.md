@@ -1,0 +1,68 @@
+# 算力、通信与稳定性（专业篇）
+
+**大规模 GPU 集群训练的性能、故障与工程细节**
+
+作者：Dr. Dezeming
+
+同一件事，在单卡上是写代码，在千卡上就变成了系统工程。计算、显存、网络、存储、供电，任何一处算错，都会以训练变慢、挂起或者悄悄算错的形式表现出来。
+
+[开始阅读第 1 章](chapters/ch01.md)　｜　[下载 PDF](../../output/gpu-cluster-pro.pdf ':ignore')（236 页，13.2 MB）
+
+## 目录
+
+### 第一篇　单卡的物理上限
+
+- [第 1 章　GPU 的执行模型与资源账](chapters/ch01.md)
+- [第 2 章　显存层级与真实带宽](chapters/ch02.md)
+- [第 3 章　Tensor Core、数据搬运与流水线](chapters/ch03.md)
+- [第 4 章　Roofline、算术强度与 MFU 的算法](chapters/ch04.md)
+- [第 5 章　低精度训练的数值细节](chapters/ch05.md)
+
+### 第二篇　网络
+
+- [第 6 章　集群网络、拓扑与带宽预算](chapters/ch06.md)
+- [第 7 章　集合通信与 NCCL](chapters/ch07.md)
+- [第 8 章　拥塞、尾延迟与多租户干扰](chapters/ch08.md)
+
+### 第三篇　并行
+
+- [第 9 章　数据并行的代价](chapters/ch09.md)
+- [第 10 章　ZeRO 与 FSDP 的分片账](chapters/ch10.md)
+- [第 11 章　张量并行的切分与通信](chapters/ch11.md)
+- [第 12 章　流水并行的调度与气泡](chapters/ch12.md)
+- [第 13 章　序列并行与上下文并行](chapters/ch13.md)
+- [第 14 章　专家并行与 MoE 训练](chapters/ch14.md)
+- [第 15 章　组合并行与自动切分](chapters/ch15.md)
+
+### 第四篇　显存与算子
+
+- [第 16 章　激活内存与重计算](chapters/ch16.md)
+- [第 17 章　算子融合与内核选择](chapters/ch17.md)
+- [第 18 章　通信与计算的重叠](chapters/ch18.md)
+
+### 第五篇　数据、存储与检查点
+
+- [第 19 章　数据管线与吞吐](chapters/ch19.md)
+- [第 20 章　检查点、恢复与 checkpoint 风暴](chapters/ch20.md)
+- [第 21 章　存储系统与带宽预算](chapters/ch21.md)
+
+### 第六篇　稳定性与可靠性
+
+- [第 22 章　硬件故障谱与静默数据损坏](chapters/ch22.md)
+- [第 23 章　训练不稳定的诊断](chapters/ch23.md)
+- [第 24 章　容错、弹性与调度](chapters/ch24.md)
+
+### 第七篇　观测与调优
+
+- [第 25 章　监控与可观测性](chapters/ch25.md)
+- [第 26 章　Profiling 与性能验收](chapters/ch26.md)
+
+### 第八篇　复盘
+
+- [第 27 章　真实集群的复盘](chapters/ch27.md)
+- [第 28 章　从零启动一次千卡训练](chapters/ch28.md)
+
+### 附录
+
+- [附录 A　术语与缩写](appendix/appA.md)
+- [附录 B　常用公式与估算表](appendix/appB.md)
