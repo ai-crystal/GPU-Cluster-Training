@@ -91,6 +91,14 @@
                 img.setAttribute('src', normalize(src));
               }
             });
+            // 下载链接统一指到站点根下的 output/，本地根路径与 GitHub Pages 子路径都能用
+            var siteBase = location.pathname.replace(/[^\/]*$/, '');
+            document.querySelectorAll('a[href]').forEach(function (a) {
+              var h = a.getAttribute('href') || '';
+              if (/^(https?:|#|mailto:)/.test(h)) return;
+              var m = h.match(/(?:\.\.\/)*\/?output\/(.+)$/);
+              if (m) a.setAttribute('href', siteBase + 'output/' + m[1]);
+            });
             if (window.renderMathInElement) {
               window.renderMathInElement(document.querySelector('.markdown-section'), {
                 delimiters: [

@@ -36,4 +36,4 @@
   - [附录 A　术语与缩写](/books/pro/appendix/appA.md)
   - [附录 B　常用公式与估算表](/books/pro/appendix/appB.md)
 
-- <a href="/output/gpu-cluster-pro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v2-pro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

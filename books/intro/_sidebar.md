@@ -19,4 +19,4 @@
 - [第 14 章　谁来管这些卡](/books/intro/chapters/ch14.md)
 - [第 15 章　一条完整的训练流水线](/books/intro/chapters/ch15.md)
 
-- <a href="/output/gpu-cluster-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v1-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

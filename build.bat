@@ -32,7 +32,7 @@ if errorlevel 1 goto :err
 call :book pro
 if errorlevel 1 goto :err
 echo.
-echo Done: output\gpu-cluster-intro.pdf  output\gpu-cluster-pro.pdf
+echo Done: output\v1-intro.pdf  output\v2-pro.pdf
 pause
 exit /b 0
 
@@ -40,7 +40,7 @@ exit /b 0
 call :book intro
 if errorlevel 1 goto :err
 echo.
-echo Done: output\gpu-cluster-intro.pdf
+echo Done: output\v1-intro.pdf
 pause
 exit /b 0
 
@@ -48,7 +48,7 @@ exit /b 0
 call :book pro
 if errorlevel 1 goto :err
 echo.
-echo Done: output\gpu-cluster-pro.pdf
+echo Done: output\v2-pro.pdf
 pause
 exit /b 0
 

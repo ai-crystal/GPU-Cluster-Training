@@ -14,8 +14,8 @@
 
 | 册 | 书名 | 一句话 | 页数 | 在线阅读 | PDF |
 | --- | --- | --- | ---: | --- | --- |
-| 01 | [入门篇](books/intro/README.md) | 从一张卡到一万张卡 | 98 | [阅读](books/intro/README.md) | <a href="output/gpu-cluster-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
-| 02 | [专业篇](books/pro/README.md) | 算力、通信与稳定性 | 236 | [阅读](books/pro/README.md) | <a href="output/gpu-cluster-pro.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 01 | [入门篇](books/intro/README.md) | 从一张卡到一万张卡 | 98 页 | [阅读](books/intro/README.md) | <a href="output/v1-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 02 | [专业篇](books/pro/README.md) | 算力、通信与稳定性 | 236 页 | [阅读](books/pro/README.md) | <a href="output/v2-pro.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
 
 ## 怎么读
 
