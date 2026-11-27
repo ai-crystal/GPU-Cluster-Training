@@ -4,7 +4,7 @@
 
 一个千亿参数的模型，权重、梯度、优化器状态加起来有几千 GB，而一张显卡只有 80 GB。于是训练被拆到上千张卡上，卡与卡之间靠网络连成一台机器。
 
-共 15 章 · 98 页
+共 15 章 · 156 页
 
 [从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v1-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 

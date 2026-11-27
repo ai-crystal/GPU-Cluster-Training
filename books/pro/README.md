@@ -4,7 +4,7 @@
 
 同一件事，在单卡上是写代码，在千卡上就变成了系统工程。计算、显存、网络、存储、供电，任何一处算错，都会以训练变慢、挂起或者悄悄算错的形式表现出来。
 
-共 28 章 · 236 页
+共 28 章 · 359 页
 
 [从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v2-pro.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 
